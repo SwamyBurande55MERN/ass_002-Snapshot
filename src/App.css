@@ -1,0 +1,57 @@
+.imageContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.flickr_Image:hover{
+  transform : scale(1.2);
+  cursor:pointer;
+}
+.SnapShot_heading{
+  position: relative;
+  bottom: 2rem;
+  font-size: 3rem;
+  font-style:oblique;
+  color: hotpink;
+}
+#mainDiv{
+  text-align:center;
+}
+button{
+  margin: 3px;
+}
+body{
+  border: 3px dashed hotpink;
+  margin: 0.5rem;
+  background-color:antiquewhite;
+}
+#image_container{
+  padding: 1rem;
+  margin-left: 0.5rem;
+}
+#mainInput{
+  position: relative;
+  bottom: 3rem;
+  left: 2.5rem;
+  height:2rem;
+  width: 019rem;
+  border-radius: 5px;
+  border: 1px hotpink solid;
+  text-align: center;
+}
+.defaultSearchBtn{
+  height: 1.5rem; 
+  width: 9rem;
+  background-color: white;
+  border: 1px solid hotpink;
+  border-radius: 5px;
+}
+.searchBtn{
+  position: relative;
+  right: 10rem;
+  height: 1.5rem;
+  width: 5rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: black;
+}
